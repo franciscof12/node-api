@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "expresspedrun",
+  "version": "1.0.0",
+  "description": "my first time learning about express framework",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francisco Ferreira",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.18.2",
+    "mongodb": "6.3.0",
+    "zod": "3.22.4"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
