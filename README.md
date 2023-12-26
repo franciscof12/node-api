@@ -20,7 +20,7 @@ This repository is dedicated to the backend development using Node.js. It highli
 - `middlewares`: Functions designed to process requests before they reach the controllers.
 - `schemas`: Definitions for the database schema, ensuring data integrity and structure.
 
-Additional utilities include `api.http` for testing API endpoints, `index.js` as the entry point of the application, and configuration files for various server setups (`localServer.js`, `mongodbServer.js`, `mysqlServer.js`).
+Additional utilities include `api.http` for testing API endpoints and configuration files for various server setups (`localServer.js`, `mongodbServer.js`, `mysqlServer.js`).
 ---
 
 Clone and explore this repository to gain insights into backend development practices with Node.js, particularly in API development, database integration, and security enforcement.
