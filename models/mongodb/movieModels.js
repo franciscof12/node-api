@@ -1,5 +1,5 @@
 import { MongoClient, ObjectId, ServerApiVersion } from 'mongodb'
-const uri = '___mongodb.net/?retryWrites=true&w=majority'
+const uri = process.env.MONGO_DB_URL
 
 const client = new MongoClient(uri, {
   serverApi: {
