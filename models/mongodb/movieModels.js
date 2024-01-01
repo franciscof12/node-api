@@ -70,6 +70,7 @@ export class MovieModel {
     const { ok, value } = await db.findOneAndUpdate({ _id: objectId }, { $set: input }, { returnNewDocument: true })
 
     if (!ok) return false
+    
     return value
   }
 }
