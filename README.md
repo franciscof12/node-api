@@ -1,5 +1,4 @@
 #  📚 README
-
 ## Overview
 This repository is dedicated to the backend development using Node.js. It highlights key backend functionalities including the establishment of an API, addressing cross-origin resource sharing (CORS), and applying the MVC architectural pattern for organized API deployment.
 
